@@ -42,7 +42,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Visual Studio Code Open</string>
+	<string>VSCode-Insiders Open</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -53,9 +53,9 @@
 				<key>keyword</key>
 				<string>{var:longkeyword}</string>
 				<key>subtext</key>
-				<string>Open current folder in Visual Studio Code</string>
+				<string>Open current folder in VSCode-Insiders</string>
 				<key>text</key>
-				<string>Visual Studio Code</string>
+				<string>VSCode-Insiders</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -71,7 +71,13 @@
 			<dict>
 				<key>applescript</key>
 				<string>on alfred_script(q)
-  tell application "Finder"	set pathLoc to POSIX path of (folder of the front window as alias)  end tell	  tell application "Visual Studio Code"	open pathLoc  end tell
+  tell application "Finder"
+	set pathLoc to POSIX path of (folder of the front window as alias)
+  end tell
+	
+  tell application "VSCode-Insiders"
+	open pathLoc
+  end tell
 end alfred_script</string>
 				<key>cachescript</key>
 				<false/>
@@ -91,9 +97,9 @@ end alfred_script</string>
 				<key>keyword</key>
 				<string>{var:shortkeyword}</string>
 				<key>subtext</key>
-				<string>Open current folder in Visual Studio Code</string>
+				<string>Open current folder in VSCode-Insiders</string>
 				<key>text</key>
-				<string>Visual Studio Code</string>
+				<string>VSCode-Insiders</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -134,9 +140,9 @@ end alfred_script</string>
 	<key>variables</key>
 	<dict>
 		<key>longkeyword</key>
-		<string>code</string>
+		<string>insiders</string>
 		<key>shortkeyword</key>
-		<string>c</string>
+		<string>i</string>
 	</dict>
 	<key>version</key>
 	<string>1.0.0</string>
