@@ -8,11 +8,11 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>25D3D676-AC93-4C0C-990B-E93A448240AD</key>
+		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F655A021-576E-4CA9-85BE-CF9CFDFF7C57</string>
+				<string>7686C74A-A33F-49C2-8231-40F1569A481A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,51 +21,19 @@
 				<false/>
 			</dict>
 		</array>
-		<key>882FC320-1532-4480-9C2C-1D9FB61FF529</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F655A021-576E-4CA9-85BE-CF9CFDFF7C57</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>Enso Armand</string>
 	<key>description</key>
-	<string>Open current Finder folder in VSCode-Insiders<f/string>
+	<string>Open current folder in VSCode-Insiders</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>VSCode-Insiders Open</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:longkeyword}</string>
-				<key>subtext</key>
-				<string>Open current folder in VSCode-Insiders</string>
-				<key>text</key>
-				<string>VSCode-Insiders</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>25D3D676-AC93-4C0C-990B-E93A448240AD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -85,7 +53,7 @@ end alfred_script</string>
 			<key>type</key>
 			<string>alfred.workflow.action.applescript</string>
 			<key>uid</key>
-			<string>F655A021-576E-4CA9-85BE-CF9CFDFF7C57</string>
+			<string>7686C74A-A33F-49C2-8231-40F1569A481A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -93,20 +61,20 @@ end alfred_script</string>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>keyword</key>
-				<string>{var:shortkeyword}</string>
+				<string>vsc</string>
 				<key>subtext</key>
-				<string>Open current folder in VSCode-Insiders</string>
+				<string>open in VSCode Insiders</string>
 				<key>text</key>
-				<string>VSCode-Insiders</string>
+				<string>VSCode-Insiders Open</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>882FC320-1532-4480-9C2C-1D9FB61FF529</string>
+			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -115,38 +83,22 @@ end alfred_script</string>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>25D3D676-AC93-4C0C-990B-E93A448240AD</key>
+		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>270</integer>
 			<key>ypos</key>
-			<integer>140</integer>
-		</dict>
-		<key>882FC320-1532-4480-9C2C-1D9FB61FF529</key>
-		<dict>
-			<key>xpos</key>
-			<integer>270</integer>
-			<key>ypos</key>
-			<integer>290</integer>
-		</dict>
-		<key>F655A021-576E-4CA9-85BE-CF9CFDFF7C57</key>
-		<dict>
-			<key>xpos</key>
-			<integer>550</integer>
-			<key>ypos</key>
-			<integer>220</integer>
+			<integer>50</integer>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>longkeyword</key>
-		<string>insiders</string>
-		<key>shortkeyword</key>
-		<string>i</string>
-	</dict>
-	<key>version</key>
-	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string>https://www.idkjs.com</string>
+	<string>www.idkjs.com</string>
 </dict>
 </plist>
