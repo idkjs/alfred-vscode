@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.dpskvn.vscode</string>
+	<string>com.iskjs.vscode-insiders</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -36,7 +36,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Dino Paskvan</string>
+	<string>Enso Armand</string>
 	<key>description</key>
 	<string>Open current Finder folder in VSCode-Insiders<f/string>
 	<key>disabled</key>
@@ -147,6 +147,6 @@ end alfred_script</string>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string>https://www.dinopaskvan.com</string>
+	<string>https://www.idkjs.com</string>
 </dict>
 </plist>
