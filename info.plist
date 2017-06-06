@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.iskjs.vscode-insiders</string>
+	<string>com.idkjs.vscode-insiders</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
