@@ -38,7 +38,7 @@
 	<key>createdby</key>
 	<string>Dino Paskvan</string>
 	<key>description</key>
-	<string>Open current Finder folder in Visual Studio Code</string>
+	<string>Open current Finder folder in VSCode-Insiders<f/string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
