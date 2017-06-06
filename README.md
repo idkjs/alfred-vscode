@@ -1,2 +1,4 @@
 # alfred-vscode
-Alfred workflow for opening the current folder in VS Code
+Alfred workflow for opening the current folder in VSCode-Insiders
+
+Minor fork of the super useful [dpskvn/alfred-vscode](github.com/dpskvn/alfred-vscode)
